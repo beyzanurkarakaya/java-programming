@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="sekmeler" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="sekmeler" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="sekmeler">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="d5" red="d5" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="66" green="0" red="99" type="rgb"/>
+        </Property>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[810, 425]"/>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="tumRezervasyonlar">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="T&#xdc;M REZERVASYONLAR">
+                <Property name="tabTitle" type="java.lang.String" value="T&#xdc;M REZERVASYONLAR"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane4" alignment="0" pref="805" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="rezervasyonTablo">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="rezervasyonTabloMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="tumMusteriler">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="T&#xdc;M M&#xdc;&#x15e;TER&#x130;LER">
+                <Property name="tabTitle" type="java.lang.String" value="T&#xdc;M M&#xdc;&#x15e;TER&#x130;LER"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="805" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="392" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="5" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="musteriTablo">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="musteriTabloMouseClicked"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="rezGuncelle">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="ff" type="rgb"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[805, 425]"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="REZERVASYON G&#xdc;NCELLE">
+                <Property name="tabTitle" type="java.lang.String" value="REZERVASYON G&#xdc;NCELLE"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="155" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="musteriid" pref="146" max="32767" attributes="0"/>
+                                      <Component id="odaid" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="textOdaId" pref="160" max="32767" attributes="0"/>
+                                      <Component id="textMusteriId" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="girisTarihi" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="cikisTarihi" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="odadaKalanY" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="odadaKalanC" alignment="1" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Component id="kalınacakGun" alignment="1" min="-2" pref="146" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="76" pref="76" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="textKalanY" pref="160" max="32767" attributes="0"/>
+                                      <Component id="textKalanC" max="32767" attributes="0"/>
+                                      <Component id="textGiris" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="textCikis" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="textGun" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="rezGuncelleUyari" alignment="1" min="-2" pref="287" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="yasUyari" min="-2" pref="130" max="-2" attributes="0"/>
+                      <EmptySpace pref="132" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="rezGuncelleButonu" min="-2" pref="100" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="214" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Component id="rezGuncelleUyari" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="odaid" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="textOdaId" alignment="3" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musteriid" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="textMusteriId" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textKalanY" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="odadaKalanY" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="textKalanC" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="odadaKalanC" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="yasUyari" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="girisTarihi" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="textGiris" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cikisTarihi" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="textCikis" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="kalınacakGun" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="textGun" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="rezGuncelleButonu" min="-2" pref="36" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="odaid">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Oda ID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musteriid">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri ID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="rezGuncelleUyari">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="14" style="3"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Se&#xe7;ilen Rezervasyon Bilgilerini G&#xfc;ncelleyin..."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="girisTarihi">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Giri&#x15f; Tarihi:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="cikisTarihi">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#xc7;&#x131;k&#x131;&#x15f; Tarihi:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="odadaKalanY">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Odada Kalan Yeti&#x15f;kin Say&#x131;s&#x131;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="odadaKalanC">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Odada Kalan &#xc7;ocuk Say&#x131;s&#x131;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="rezGuncelleButonu">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="8c" green="3f" red="5e" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="G&#xdc;NCELLE"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rezGuncelleButonuActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textOdaId">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textMusteriId">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textKalanY">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textKalanC">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textGiris">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textCikis">
+            </Component>
+            <Component class="javax.swing.JLabel" name="yasUyari">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="(12 ya&#x15f;&#x131;ndan k&#xfc;&#xe7;&#xfc;k)"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="kal&#x131;nacakGun">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Kal&#x131;nacak G&#xfc;n Say&#x131;s&#x131;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textGun">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="musteriGuncelle">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="fd" green="dc" red="dc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="M&#xdc;&#x15e;TER&#x130; G&#xdc;NCELLE">
+                <Property name="tabTitle" type="java.lang.String" value="M&#xdc;&#x15e;TER&#x130; G&#xdc;NCELLE"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="249" max="-2" attributes="0"/>
+                              <Component id="musteriGuncelleUyari" min="-2" pref="270" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="208" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="musAd" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="musTC" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="musSoyad" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="musYas" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="musMail" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="musMeslek" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="musTel" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                                  <Component id="musCins" alignment="0" min="-2" pref="128" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="textTC" max="32767" attributes="0"/>
+                                  <Component id="textAd" max="32767" attributes="0"/>
+                                  <Component id="textSoyad" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="textYas" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="textMail" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="textMeslek" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="textTel" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="textCins" alignment="0" pref="182" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="269" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="musGuncelleButonu" min="-2" pref="92" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="213" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                      <Component id="musteriGuncelleUyari" min="-2" pref="28" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musTC" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          <Component id="textTC" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musAd" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="textAd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musSoyad" alignment="3" min="-2" pref="24" max="-2" attributes="0"/>
+                          <Component id="textSoyad" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musYas" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="textYas" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musMail" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="textMail" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musMeslek" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="textMeslek" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musTel" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="textTel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musCins" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="textCins" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="musGuncelleButonu" min="-2" pref="34" max="-2" attributes="0"/>
+                      <EmptySpace pref="53" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="musteriGuncelleUyari">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="14" style="3"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Se&#xe7;ilen M&#xfc;&#x15f;teri Bilgilerini G&#xfc;ncelleyin..."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musTC">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri TC:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musAd">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Ad:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musSoyad">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Soyad:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musYas">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Ya&#x15f;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musMail">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Email:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musMeslek">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Meslek:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musTel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Telefon:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musCins">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Cinsiyet:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textTC">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textAd">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textSoyad">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textYas">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textMail">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textMeslek">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textTel">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textCins">
+            </Component>
+            <Component class="javax.swing.JButton" name="musGuncelleButonu">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="0" red="66" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="G&#xdc;NCELLE"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="musGuncelleButonuActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="rezSil">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="b8" green="db" red="fd" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="REZERVASYON S&#x130;L">
+                <Property name="tabTitle" type="java.lang.String" value="REZERVASYON S&#x130;L"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="rezSilButonu" min="-2" pref="100" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="193" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="odaId" max="32767" attributes="0"/>
+                                      <Component id="musteriId" pref="139" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="textOdaID" pref="185" max="32767" attributes="0"/>
+                                      <Component id="textMusteriID" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                              <Component id="rezSilUyari" min="-2" pref="416" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="rezSilUyari" min="-2" pref="36" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="odaId" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="textOdaID" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="musteriId" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                          <Component id="textMusteriID" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="rezSilButonu" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace pref="186" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="rezSilUyari">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="14" style="3"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="0" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Se&#xe7;ti&#x11f;iniz M&#xfc;&#x15f;terinin Kayd&#x131;n&#x131; Silmek &#x130;stiyorsan&#x131;z S&#x130;L&apos;e T&#x131;klay&#x131;n..."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="musteriId">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri ID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="odaId">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="0"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Oda ID:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textOdaID">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textMusteriID">
+            </Component>
+            <Component class="javax.swing.JButton" name="rezSilButonu">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="84" green="36" red="5d" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="S&#x130;L"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="rezSilButonuActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel1">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="c4" green="c4" red="cf" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="M&#xdc;&#x15e;TER&#x130; S&#x130;L">
+                <Property name="tabTitle" type="java.lang.String" value="M&#xdc;&#x15e;TER&#x130; S&#x130;L"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="196" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="SoyadLabel" pref="112" max="32767" attributes="0"/>
+                                  <Component id="AdLabel" max="32767" attributes="0"/>
+                                  <Component id="TcLabel" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="textMusTc" max="32767" attributes="0"/>
+                                  <Component id="textMusAd" max="32767" attributes="0"/>
+                                  <Component id="textMusSoyad" pref="160" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="179" max="-2" attributes="0"/>
+                              <Component id="musSilUyari" min="-2" pref="367" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="259" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="musSilButonu" min="-2" pref="103" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="249" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Component id="musSilUyari" min="-2" pref="25" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="TcLabel" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="textMusTc" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="AdLabel" alignment="3" min="-2" pref="26" max="-2" attributes="0"/>
+                          <Component id="textMusAd" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="SoyadLabel" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="textMusSoyad" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="musSilButonu" min="-2" pref="35" max="-2" attributes="0"/>
+                      <EmptySpace pref="179" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="TcLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri TC:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="AdLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Ad:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="SoyadLabel">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="M&#xfc;&#x15f;teri Soyad:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="textMusTc">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textMusAd">
+            </Component>
+            <Component class="javax.swing.JTextField" name="textMusSoyad">
+            </Component>
+            <Component class="javax.swing.JLabel" name="musSilUyari">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="14" style="3"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="33" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Se&#xe7;ilen M&#xfc;&#x15f;teriyi Silmek &#x130;stiyorsan&#x131;z S&#x130;L&apos;e T&#x131;klay&#x131;n..."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="musSilButonu">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Cambria" size="12" style="2"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="0" red="66" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="S&#x130;L"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="musSilButonuActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
